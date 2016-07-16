@@ -1,0 +1,8 @@
+import xlwt
+
+wk = xlwt.Workbook()
+ws = wk.add_sheet("Sheet1")
+ws.write(0,1,"DataEntry")
+wk.save("d:\out.xls")
+
+
